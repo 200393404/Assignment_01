@@ -1,0 +1,45 @@
+extends layout.pug
+
+block mainSection
+    // comments
+    section#contact.comment-w3l
+        .container
+            h3.text-center Contact Me
+            .col-lg-6.col-md-6.col-sm-6.comment-agile1(data-aos='flip-left')
+                form(action='#', method='post')
+                    .control-group.form-group
+                    .controls
+                        input#name.form-control(type='text', placeholder='Full Name', required='')
+                        p.help-block
+                    .control-group.form-group
+                    .controls
+                        input#email.form-control(type='email', placeholder='Email Address', required='')
+                    .control-group.form-group
+                    .controls
+                        input#name1.form-control(type='text', placeholder='Phone Number', required='')
+                        p.help-block
+                    .control-group.form-group
+                    .controls
+                        textarea#message.form-control(rows='10', cols='100', placeholder='Message', required='')
+                    button.btn.btn-primary(type='submit') Send Message
+            .col-lg-6.col-md-6.col-sm-6.comment-agile2(data-aos='flip-right')
+                h4 Contact me for more details
+                p.comment-w3
+                    
+                h5
+                    span.fa.fa-phone
+                    |  +1 (249) 989-1168
+                h5
+                    span.fa.fa-envelope
+                    a(href='mailto:shreedutt2808@gmail.com')  shreedutt2808@gmail.com
+                h5
+                    span.fa.fa-map-marker
+                    |  Barrie,Canada
+                h5
+                    span.fa.fa-twitter
+                    |  twitter/@my_website
+                h5
+                    span.fa.fa-instagram
+                    |  instagram/@my_website
+                .clearfix
+            // /comments

@@ -1,0 +1,66 @@
+extends layout
+
+block mainSection
+  .w3l-banner
+    .wthree-dot
+      // nav
+      .w3layouts-nav-right
+        .fat-nav
+          .fat-nav__wrapper
+            ul
+              li
+                a(href='/') Home
+              li
+                a.scroll(href='/about') About Me
+              li
+                a.scroll(href='/services') My Services
+              li
+                a.scroll(href='/gallery') My projects
+              li
+                a.scroll(href='/contact') Contact
+      // //nav
+      // //Header
+      .container
+        .flexslider-info
+          section.slider.col-md-6
+            .flexslider
+              ul.slides
+                li
+                  .w3l-info
+                    h1
+                      | My name is 
+                      span Shreedutt
+                    p
+                      | The truth about the life of a man is not what he does, but the legend which he creates around himself     - Oscar Wilde
+                    ul
+                      li
+                        a.w3ls_more(href='/') Hire Me
+                      li
+                        a.scroll.w3l_contact(href='/contact') Contact Me
+                li
+                  .w3l-info
+                    h2
+                      | this is my 
+                      span website
+                    p
+                      | Legend adheres to artists whose deaths seem the corollaries of their works.    - Joyce Johnson
+                    ul
+                      li
+                        a.w3ls_more(href='/') Hire Me
+                      li
+                        a.scroll.w3l_contact(href='/contact') Contact Me
+                li
+                  .w3l-info
+                    h3
+                      | I'm a 
+                      span designer
+                    p
+                      | Your memories become fantasies if they are not shared, and your life in all its triviality becomes a legend.    - Aleksandar Hemon
+                    ul
+                      li
+                        a.w3ls_more(href='/') Hire Me
+                      li
+                        a.scroll.w3l_contact(href='/contact') Contact Me
+          .clearfix
+  // //banner
+
